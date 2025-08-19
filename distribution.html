@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>代充、直销业绩与分销业绩返佣规则</title>
+  <meta name="viewport" content="initial-scale=1.0,width=device-width" />
+  <link rel="icon" href="data:image/ico;base64,aWNv" />
+  <style type="text/css">
+    * {
+      margin: 0;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.9);
+    }
+
+    body {
+      max-width: 860px;
+      margin: auto;
+      padding: 2rem 2rem 5rem 2rem;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    a {
+      color: #0a59f7;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    #icon {
+      font-size: 0;
+      text-align: center;
+    }
+
+    #icon svg {
+      width: 4rem;
+      height: 4rem;
+    }
+
+    #privacyName {
+      margin: 2rem 0 0.5rem;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    #update-time {
+      text-align: center;
+
+      span {
+        font-size: 14px;
+      }
+    }
+
+    .font-secondary {
+      color: rgba(0, 0, 0, 0.6);
+    }
+
+    .icon-emphasize {
+      color: rgba(10, 89, 247, 1);
+    }
+
+    h5 {
+      word-break: break-all;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      word-break: break-all;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<script>
+  document.documentElement.style.fontSize = 8 + 'px';
+</script>
+
+<body>
+  <div id="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96.000000"
+      height="96.000000" viewBox="0 0 96 96" fill="none">
+      <defs>
+        <clipPath id="clip40_7009">
+          <rect width="96.000000" height="96.000000" fill="white" fill-opacity="0" />
+        </clipPath>
+      </defs>
+      <g clip-path="url(#clip40_7009)">
+        <path class="icon-emphasize" id="path"
+          d="M74.58 85L23.08 85C21.97 85 21.03 84.6 20.25 83.82C19.47 83.04 19.08 82.1 19.08 81L19.08 15C19.08 13.89 19.47 12.95 20.25 12.17C21.03 11.39 21.97 11 23.08 11L70.58 11C71.68 11 72.62 11.39 73.4 12.17C74.18 12.95 74.58 13.89 74.58 15L74.58 70.5"
+          stroke="currentColor" stroke-opacity="1.000000" stroke-width="6.000000" />
+        <path class="icon-emphasize" id="path"
+          d="M74 74L74.25 74C75.35 74 76.29 74.39 77.07 75.17C77.85 75.95 78.25 76.89 78.25 78C78.25 79.1 77.85 80.04 77.07 80.82C76.29 81.6 75.35 82 74.25 82L37.41 82C38.56 79.33 38.56 76.66 37.41 74L74 74ZM74 68L28.43 68C27.62 67.98 26.9 68.24 26.29 68.78C25.68 69.32 25.33 70 25.26 70.81C25.2 71.68 25.47 72.42 26.07 73.05C26.66 73.68 27.39 74 28.26 74L28.68 74C29.85 74.06 30.77 74.56 31.47 75.5C32.46 76.83 32.59 78.24 31.85 79.73C31.11 81.22 29.91 81.98 28.25 82L27.16 82L27.16 84.84C27.17 85.72 27.5 86.47 28.13 87.08C28.76 87.7 29.52 88 30.41 88L74.25 88C74.33 88 74.41 88 74.5 88C75.82 88 77.1 87.74 78.32 87.23C79.55 86.73 80.63 86 81.57 85.07C82.5 84.13 83.23 83.05 83.73 81.82C84.24 80.6 84.5 79.32 84.5 78C84.5 76.67 84.24 75.39 83.73 74.17C83.23 72.94 82.5 71.86 81.57 70.92C80.63 69.99 79.55 69.26 78.32 68.76C77.1 68.25 75.82 68 74.5 68C74.41 67.99 74.33 67.99 74.25 68L74 68Z"
+          fill="currentColor" fill-opacity="1.000000" fill-rule="nonzero" />
+        <path class="icon-emphasize" id="line"
+          d="M30.85 32.98L30.83 33C29.15 33 27.83 31.68 27.83 30C27.83 28.31 29.15 27 30.83 27L30.85 27.02L30.85 32.98ZM62.81 27.02L62.83 27C64.51 27 65.83 28.31 65.83 30C65.83 31.68 64.51 33 62.83 33L62.81 32.98L62.81 27.02Z"
+          fill="currentColor" fill-opacity="0" fill-rule="nonzero" />
+        <path class="icon-emphasize" id="line" d="M30.83 30L62.83 30" stroke="currentColor" stroke-opacity="1.000000"
+          stroke-width="6.000000" stroke-linecap="round" />
+        <path class="icon-emphasize" id="line"
+          d="M30.85 45.04L30.83 45.06C29.15 45.06 27.83 43.74 27.83 42.06C27.83 40.38 29.15 39.06 30.83 39.06L30.85 39.08L30.85 45.04ZM62.81 39.08L62.83 39.06C64.51 39.06 65.83 40.38 65.83 42.06C65.83 43.74 64.51 45.06 62.83 45.06L62.81 45.04L62.81 39.08Z"
+          fill="currentColor" fill-opacity="0" fill-rule="nonzero" />
+        <path class="icon-emphasize" id="line" d="M30.83 42.06L62.83 42.06" stroke="currentColor"
+          stroke-opacity="1.000000" stroke-width="6.000000" stroke-linecap="round" />
+        <path class="icon-emphasize" id="line"
+          d="M30.85 57.1L30.83 57.12C29.15 57.12 27.83 55.8 27.83 54.12C27.83 52.43 29.15 51.12 30.83 51.12L30.85 51.14L30.85 57.1ZM46.81 51.14L46.83 51.12C48.51 51.12 49.83 52.43 49.83 54.12C49.83 55.8 48.51 57.12 46.83 57.12L46.81 57.1L46.81 51.14Z"
+          fill="currentColor" fill-opacity="0" fill-rule="nonzero" />
+        <path class="icon-emphasize" id="line" d="M30.83 54.12L46.83 54.12" stroke="currentColor"
+          stroke-opacity="1.000000" stroke-width="6.000000" stroke-linecap="round" />
+      </g>
+    </svg>
+  </div>
+  <h2 id="privacyName">代充、直销业绩与分销业绩返佣规则</h2>
+  <p id="update-time">
+    <span class="font-secondary">更新日期：2025年8月20日</span>
+  </p>
+
+  <h5>1·提现规则：</h5>
+  <p>无提现门槛，提现一个工作日内打款。</p>
+
+  <h5>2·收益规则：</h5>
+  <p>邀请用户注册下单并核销后，即可获得收益。</p>
+
+  <h5>3·分销级别：</h5>
+  <p>直推分销（分成比例25%~40%），二级分销（分成比例5%），无其他级别分销。</p>
+
+  <h5>4·分销类型：</h5>
+  <p>4.1 拉新分销：邀请用户注册用户下单消费可获得收益（用礼品卡支付的订单不可获得收益）</p>
+  <p>4.2 礼品卡分销：代充其他账户入账消费后可获得收益。</p>
+
+  <h5>收益效果如何？</h5>
+
+  <h5>1·直推分销：</h5>
+  <p>假如你邀请50个人，每人一周总花费了500项目费用。</p>
+
+  <table style="width: 100%; margin: 20px 0; border-collapse: collapse;">
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">项目</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">项目费</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">分销人数</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">抽佣比例</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">分成比例</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">一级分销收益（元）</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">上门按摩</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">500</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">50</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">40%</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">40%</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: red;">4000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;" colspan="6">计算公式：500×50×40%×40%=4000</td>
+    </tr>
+  </table>
+
+  <h5>2·二级分销：</h5>
+  <p>假如你邀请的50人都没消费，但是每人又邀请了2人，每人一周总花费消费了500，那么一周的收益就是：</p>
+
+  <table style="width: 100%; margin: 20px 0; border-collapse: collapse;">
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">项目</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">项目费</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">分销人数</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">抽佣比例</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">分成比例</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">二级分销收益（元）</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">上门按摩</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">500</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">100</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">40%</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5%</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: red;">1000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;" colspan="6">计算公式：500×100×40%×5%=1000</td>
+    </tr>
+  </table>
+
+  <h5>推广方式：</h5>
+  <p>1·分享推广海报：全部推广海报都能分享，只要你朋友扫你分享的海报，并且注册成功的，就可以坐等收益；</p>
+  <p>2·分享分销链接：只要你的朋友点击你的分享链接，并且注册成功；</p>
+  <p>3·注册绑定邀请码：你的朋友从其他渠道下载在"我的绑定邀请码"页面填入你的邀请码，并且注册成功；</p>
+  <p style="color: red;">注意：邀请的用户必须是未注册的新用户</p>
+
+  <h5>详细说明：</h5>
+  <p style="color: red;">佣金比例表（注：系统根据累计单量自动升级）</p>
+
+  <table style="width: 100%; margin: 20px 0; border-collapse: collapse;">
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">累计单量</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">分成比例</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">0</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">25%</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">30%</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">10</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">35%</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">100</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">40%</td>
+    </tr>
+  </table>
+
+  <p style="color: red;">分销提成表（注：以下数据以分成比例40%举例）</p>
+
+  <h5>直推分销</h5>
+  <table style="width: 100%; margin: 20px 0; border-collapse: collapse;">
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">提成</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">提成规则</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">说明</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">40%</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">按平台利润返还返路费100，订单金额460，抽佣比例40%，后续可能调整。</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
+        项目费用360+往返路费100=460，例如，抽佣比例为40%，直推分销收益为360*0.4=144元，直推分销收益为144*40%=57.6元</td>
+    </tr>
+  </table>
+
+  <h5>二级分销</h5>
+  <table style="width: 100%; margin: 20px 0; border-collapse: collapse;">
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">提成</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">提成规则</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">说明</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5%</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">按平台利润返还返路费100，订单金额600，抽佣比例40%，后续可能调整。</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
+        项目费用500+往返路费100=600，例如，抽佣比例为40%，直推分销收益为500*0.4=200元，二级分销收益为150*5%=7.5元</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
