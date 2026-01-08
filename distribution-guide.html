@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>分销功能说明</title>
+  <meta name="viewport" content="initial-scale=1.0,width=device-width" />
+  <link rel="icon" href="data:image/ico;base64,aWNv" />
+  <style type="text/css">
+    * {
+      margin: 0;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.9);
+    }
+
+    body {
+      max-width: 860px;
+      margin: auto;
+      padding: 2rem 2rem 5rem 2rem;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    a {
+      color: #0a59f7;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    #icon {
+      font-size: 0;
+      text-align: center;
+    }
+
+    #icon svg {
+      width: 4rem;
+      height: 4rem;
+    }
+
+    #privacyName {
+      margin: 2rem 0 0.5rem;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    #update-time {
+      text-align: center;
+
+      span {
+        font-size: 14px;
+      }
+    }
+
+    .font-secondary {
+      color: rgba(0, 0, 0, 0.6);
+    }
+
+    .icon-emphasize {
+      color: rgba(10, 89, 247, 1);
+    }
+
+    h5 {
+      word-break: break-all;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      word-break: break-all;
+      line-height: 1.4;
+    }
+
+    .check-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      margin: 0.5rem 0;
+      line-height: 1.4;
+    }
+
+    .check-icon {
+      color: #22c55e;
+    }
+  </style>
+</head>
+<script>
+  document.documentElement.style.fontSize = 8 + 'px';
+</script>
+
+<body>
+  <div id="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96.000000"
+      height="96.000000" viewBox="0 0 96 96" fill="none">
+      <defs>
+        <clipPath id="clip40_7009">
+          <rect width="96.000000" height="96.000000" fill="white" fill-opacity="0" />
+        </clipPath>
+      </defs>
+      <g clip-path="url(#clip40_7009)">
+        <path class="icon-emphasize" id="path"
+          d="M74.58 85L23.08 85C21.97 85 21.03 84.6 20.25 83.82C19.47 83.04 19.08 82.1 19.08 81L19.08 15C19.08 13.89 19.47 12.95 20.25 12.17C21.03 11.39 21.97 11 23.08 11L70.58 11C71.68 11 72.62 11.39 73.4 12.17C74.18 12.95 74.58 13.89 74.58 15L74.58 70.5"
+          stroke="currentColor" stroke-opacity="1.000000" stroke-width="6.000000" />
+        <path class="icon-emphasize" id="path"
+          d="M74 74L74.25 74C75.35 74 76.29 74.39 77.07 75.17C77.85 75.95 78.25 76.89 78.25 78C78.25 79.1 77.85 80.04 77.07 80.82C76.29 81.6 75.35 82 74.25 82L37.41 82C38.56 79.33 38.56 76.66 37.41 74L74 74ZM74 68L28.43 68C27.62 67.98 26.9 68.24 26.29 68.78C25.68 69.32 25.33 70 25.26 70.81C25.2 71.68 25.47 72.42 26.07 73.05C26.66 73.68 27.39 74 28.26 74L28.68 74C29.85 74.06 30.77 74.56 31.47 75.5C32.46 76.83 32.59 78.24 31.85 79.73C31.11 81.22 29.91 81.98 28.25 82L27.16 82L27.16 84.84C27.17 85.72 27.5 86.47 28.13 87.08C28.76 87.7 29.52 88 30.41 88L74.25 88C74.33 88 74.41 88 74.5 88C75.82 88 77.1 87.74 78.32 87.23C79.55 86.73 80.63 86 81.57 85.07C82.5 84.13 83.23 83.05 83.73 81.82C84.24 80.6 84.5 79.32 84.5 78C84.5 76.67 84.24 75.39 83.73 74.17C83.23 72.94 82.5 71.86 81.57 70.92C80.63 69.99 79.55 69.26 78.32 68.76C77.1 68.25 75.82 68 74.5 68C74.41 67.99 74.33 67.99 74.25 68L74 68Z"
+          fill="currentColor" fill-opacity="1.000000" fill-rule="nonzero" />
+        <path class="icon-emphasize" id="line"
+          d="M30.85 32.98L30.83 33C29.15 33 27.83 31.68 27.83 30C27.83 28.31 29.15 27 30.83 27L30.85 27.02L30.85 32.98ZM62.81 27.02L62.83 27C64.51 27 65.83 28.31 65.83 30C65.83 31.68 64.51 33 62.83 33L62.81 32.98L62.81 27.02Z"
+          fill="currentColor" fill-opacity="0" fill-rule="nonzero" />
+        <path class="icon-emphasize" id="line" d="M30.83 30L62.83 30" stroke="currentColor" stroke-opacity="1.000000"
+          stroke-width="6.000000" stroke-linecap="round" />
+        <path class="icon-emphasize" id="line"
+          d="M30.85 45.04L30.83 45.06C29.15 45.06 27.83 43.74 27.83 42.06C27.83 40.38 29.15 39.06 30.83 39.06L30.85 39.08L30.85 45.04ZM62.81 39.08L62.83 39.06C64.51 39.06 65.83 40.38 65.83 42.06C65.83 43.74 64.51 45.06 62.83 45.06L62.81 45.04L62.81 39.08Z"
+          fill="currentColor" fill-opacity="0" fill-rule="nonzero" />
+        <path class="icon-emphasize" id="line" d="M30.83 42.06L62.83 42.06" stroke="currentColor"
+          stroke-opacity="1.000000" stroke-width="6.000000" stroke-linecap="round" />
+        <path class="icon-emphasize" id="line"
+          d="M30.85 57.1L30.83 57.12C29.15 57.12 27.83 55.8 27.83 54.12C27.83 52.43 29.15 51.12 30.83 51.12L30.85 51.14L30.85 57.1ZM46.81 51.14L46.83 51.12C48.51 51.12 49.83 52.43 49.83 54.12C49.83 55.8 48.51 57.12 46.83 57.12L46.81 57.1L46.81 51.14Z"
+          fill="currentColor" fill-opacity="0" fill-rule="nonzero" />
+        <path class="icon-emphasize" id="line" d="M30.83 54.12L46.83 54.12" stroke="currentColor"
+          stroke-opacity="1.000000" stroke-width="6.000000" stroke-linecap="round" />
+      </g>
+    </svg>
+  </div>
+  <h2 id="privacyName">分销功能说明</h2>
+  <p id="update-time">
+    <span class="font-secondary">更新日期：2026年2月10日</span>
+  </p>
+
+  <h5>功能概述：</h5>
+  <p>为激励团队拓展新客户、新服务人员而设计的内部分销激励工具，帮助您：</p>
+  <div class="check-item"><span class="check-icon">✅</span><span>低成本获取新客户/新服务人员</span></div>
+  <div class="check-item"><span class="check-icon">✅</span><span>提升技师团队积极性</span></div>
+  <div class="check-item"><span class="check-icon">✅</span><span>增强团队凝聚力</span></div>
+  <div class="check-item"><span class="check-icon">✅</span><span>量化激励效果</span></div>
+  <div class="check-item"><span class="check-icon">✅</span><span>助力订单增长</span></div>
+
+  <h5>兑现权益流程：</h5>
+  <p>技师提交申请→申请列表联系沟通(建议24小时内处理)→线下兑现→商家在平台确认发放/取消。</p>
+
+  <h5>核心配置与管理：</h5>
+  <p>1. 您可独立控制两个通道的激励功能：</p>
+  <p>• 邀请客户奖励：勾选后，服务人员可邀请新客户，新客户完成1单消费订单后，可累计1积分，且可兑换邀请客户内的权益。</p>
+  <p>• 邀请技师奖励：勾选后，服务人员可推荐新服务人员加入，新服务人员完成1单服务订单后，可累计1积分，且可兑换邀请技师内的权益。</p>
+
+  <p style="margin-top: 1.5rem;">2. 您可控制兑换奖励所消耗积分：</p>
+  <p>• 【修改差评-权益】默认消耗积分1（可自定义配置）-服务人员可申请修改一条差评；</p>
+  <p>• 【外派订单-权益】默认消耗积分1（可自定义配置）-服务人员获得外派优先派单权；</p>
+  <p>• 【百元红包-权益】-默认消耗积分1（可自定义配置）-服务人员获得100元现金奖励。</p>
+
+</body>
+
+</html>
